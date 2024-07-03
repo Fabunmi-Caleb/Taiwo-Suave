@@ -1,0 +1,36 @@
+/* Media Sans Regular Font */
+@font-face {
+  font-family: "Media Sans Extended";
+  src: url("../Media Sans Extended/mediasans-regular-TRIAL-BF63c75479e5ff3.otf") format(truetype);
+}
+
+/* Satoshi Variable Font */
+@font-face {
+  font-family: "Satoshi Variable";
+  src: url("./Variable/Satoshi-Variable.ttf") format("truetype");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+} */
+
+/* This is the general container for the whole page */
+.suave-container {
+  background-image: url("./assets/suave background.png");
+}
+
+/* Suave logo on the navbar */
+.suave-logo {
+  background-image: url("./assets/suave.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* White graident on the navbar */
+.white-gradient {
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
