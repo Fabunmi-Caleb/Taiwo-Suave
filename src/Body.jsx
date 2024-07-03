@@ -14,7 +14,7 @@ function Body() {
         <p className="font-satoshi text-center text-white">Coming Soon</p>
         </div>
       </div>
-      <img className="mt-[108px] w-[1152px] " src={imgSrc} alt="image lol" />
+      <img className="mt-[108px] w-[1152px]" src={imgSrc} alt="image lol" />
     </section>
   );
 }

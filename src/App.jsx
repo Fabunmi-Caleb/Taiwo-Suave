@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import Body from "./Body";
+import Footer from "./Footer";
 
 function App(){
 
@@ -7,6 +8,7 @@ function App(){
     <div className="suave-container">
       <Navbar/>
       <Body/>
+      <Footer/>
     </div>
   )
 }
